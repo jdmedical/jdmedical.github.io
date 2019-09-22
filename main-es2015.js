@@ -32,7 +32,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"footer-background mt30\">\n  <div class=\"container\">\n    <div class=\"col-md-12 text-center\" style=\"padding: 20px 10px;\">\n      <img src=\"../../assets/footer-logo.png\" alt=\"logo\">\n    </div>\n    <div class=\"col-md-12 text-center\">\n        <div class=\"social_icons\">\n            <ul>\n              <li>\n                <a href=\"#\"><i class=\"fa fa-facebook\" aria-hidden=\"true\"></i></a>\n              </li>\n              <li>\n                <a href=\"#\"><i class=\"fa fa-twitter\" aria-hidden=\"true\"></i></a>\n              </li>\n              <li>\n                <a href=\"#\"><i class=\"fa fa-instagram\" aria-hidden=\"true\"></i></a>\n              </li>\n              <li>\n                <a href=\"#\"><i class=\"fa fa-google-plus\" aria-hidden=\"true\"></i></a>\n              </li>\n            </ul>\n          </div>\n    </div>\n    <div class=\"col-md-12 color-white pt15 pb15\">\n        <div class=\"text-center\">Copyright © 2019. All Rights Reserved. <a class=\"color-white\" target=\"_blank\" [routerLink]=\"['/home']\">North Texas Comprehensive Spine and Pain.</a></div>\n    </div>\n\n  </div>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"footer-background mt30\">\n  <div class=\"container\">\n    <div class=\"col-md-12 text-center\" style=\"padding: 20px 10px;\">\n      <img src=\"../../assets/footer-logo.png\" alt=\"logo\">\n    </div>\n    <div class=\"col-md-12 text-center\">\n        <div class=\"social_icons\">\n            <ul>\n              <li>\n                <a href=\"#\"><i class=\"fa fa-facebook\" aria-hidden=\"true\"></i></a>\n              </li>\n              <li>\n                <a href=\"#\"><i class=\"fa fa-twitter\" aria-hidden=\"true\"></i></a>\n              </li>\n              <li>\n                <a href=\"#\"><i class=\"fa fa-instagram\" aria-hidden=\"true\"></i></a>\n              </li>\n              <li>\n                <a href=\"#\"><i class=\"fa fa-google-plus\" aria-hidden=\"true\"></i></a>\n              </li>\n            </ul>\n          </div>\n    </div>\n    <div class=\"col-md-12 color-white pt15 pb15\">\n        <div class=\"text-center\">Copyright © 2019. All Rights Reserved. \n          <a class=\"color-white\" target=\"_blank\" [routerLink]=\"['/home']\">North Texas Comprehensive Spine and Pain.</a>          \n        </div>\n    </div>\n\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -375,6 +375,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
 /* harmony import */ var _app_footer_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-footer.component */ "./src/app/app-footer/app-footer.component.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+
 
 
 
@@ -384,7 +386,7 @@ let AppFooterModule = class AppFooterModule {
 AppFooterModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
         imports: [
-            _angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"]
+            _angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"]
         ],
         exports: [
             _app_footer_component__WEBPACK_IMPORTED_MODULE_3__["AppFooterComponent"]
