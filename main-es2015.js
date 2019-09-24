@@ -32,7 +32,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"footer-background mt30\">\n  <div class=\"container\">\n    <div class=\"col-md-12 text-center\" style=\"padding: 20px 10px;\">\n      <img src=\"../../assets/footer-logo.png\" alt=\"logo\">\n    </div>\n    <div class=\"col-md-12 text-center\">\n        <div class=\"social_icons\">\n            <ul>\n              <li>\n                <a href=\"#\"><i class=\"fa fa-facebook\" aria-hidden=\"true\"></i></a>\n              </li>\n              <li>\n                <a href=\"#\"><i class=\"fa fa-twitter\" aria-hidden=\"true\"></i></a>\n              </li>\n              <li>\n                <a href=\"#\"><i class=\"fa fa-instagram\" aria-hidden=\"true\"></i></a>\n              </li>\n              <li>\n                <a href=\"#\"><i class=\"fa fa-google-plus\" aria-hidden=\"true\"></i></a>\n              </li>\n            </ul>\n          </div>\n    </div>\n    <div class=\"col-md-12 color-white pt15 pb15\">\n        <div class=\"text-center\">Copyright © 2019. All Rights Reserved. \n          <a class=\"color-white\" target=\"_blank\" [routerLink]=\"['/home']\">North Texas Comprehensive Spine and Pain.</a>          \n        </div>\n    </div>\n\n  </div>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"footer-background mt30\">\r\n  <div class=\"container\">\r\n    <div class=\"col-md-12 text-center\" style=\"padding: 20px 10px;\">\r\n      <img src=\"../../assets/footer-logo.png\" alt=\"logo\">\r\n    </div>\r\n    <div class=\"col-md-12 text-center\">\r\n        <div class=\"social_icons\">\r\n            <ul>\r\n              <li>\r\n                <a href=\"#\"><i class=\"fa fa-facebook\" aria-hidden=\"true\"></i></a>\r\n              </li>\r\n              <li>\r\n                <a href=\"#\"><i class=\"fa fa-twitter\" aria-hidden=\"true\"></i></a>\r\n              </li>\r\n              <li>\r\n                <a href=\"#\"><i class=\"fa fa-instagram\" aria-hidden=\"true\"></i></a>\r\n              </li>\r\n              <li>\r\n                <a href=\"#\"><i class=\"fa fa-google-plus\" aria-hidden=\"true\"></i></a>\r\n              </li>\r\n            </ul>\r\n          </div>\r\n    </div>\r\n    <div class=\"col-md-12 color-white pt15 pb15\">\r\n        <div class=\"text-center\">Copyright © 2019. All Rights Reserved. \r\n          <a class=\"color-white\" target=\"_blank\" [routerLink]=\"['/home']\">North Texas Comprehensive Spine and Pain.</a>          \r\n        </div>\r\n    </div>\r\n\r\n  </div>\r\n</div>\r\n");
 
 /***/ }),
 
@@ -1045,7 +1045,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\rajes\OneDrive\Desktop\project\med-project\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\rp184n\new-workspace\med-ui\src\main.ts */"./src/main.ts");
 
 
 /***/ })
