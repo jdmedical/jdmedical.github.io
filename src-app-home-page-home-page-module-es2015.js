@@ -9,7 +9,7 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div id=\"carouselExampleFade\" class=\"carousel slide carousel-fade\" data-ride=\"carousel\" data-interval=\"3000\" data-pause=\"hover\">\r\n    <div class=\"carousel-inner\">\r\n      <div class=\"carousel-item active\">\r\n        <img src=\"assets\\download (1).jpg\" class=\"d-block w-100\" alt=\"...\">\r\n      </div>\r\n      <div class=\"carousel-item\">\r\n        <img src=\"assets\\download (2).jpg\" class=\"d-block w-100\" alt=\"...\">\r\n      </div>\r\n      <div class=\"carousel-item\">\r\n        <img src=\"assets\\download.jpg\" class=\"d-block w-100\" alt=\"...\">\r\n      </div>\r\n    </div>\r\n    <a class=\"carousel-control-prev\" href=\"#carouselExampleFade\" role=\"button\" data-slide=\"prev\">\r\n      <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\r\n      <span class=\"sr-only\">Previous</span>\r\n    </a>\r\n    <a class=\"carousel-control-next\" href=\"#carouselExampleFade\" role=\"button\" data-slide=\"next\">\r\n      <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\r\n      <span class=\"sr-only\">Next</span>\r\n    </a>\r\n  </div>\r\n  <div class=\"container mt-5\">\r\n    <div class=\"row\">\r\n      <div *ngFor=\"let program of programs\" class=\"col-md-6 col-lg-3\">\r\n        <div class=\"card mt-3 mr-2\">\r\n          <div class=\"programs-grid\">\r\n            <div class=\"programs-grid-icon icon\"></div>\r\n            <div class=\"programs-grid-item\">\r\n              <h6 class=\"bold-text\">{{program.title}}</h6>\r\n            </div>\r\n            <div class=\"programs-grid-item\"></div>\r\n            <div class=\"programs-grid-item\">{{program.description}}</div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    </div>\r\n    <app-why-best></app-why-best>\r\n\r\n    <div class=\"container text-center mt30\">\r\n        <button type=\"button\" class=\"btn btn-primary\" (click)=\"contactNav()\">Contact us</button>\r\n    </div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div id=\"carouselExampleFade\" class=\"carousel slide carousel-fade\" data-ride=\"carousel\" data-interval=\"3000\" data-pause=\"hover\">\r\n    <div class=\"carousel-inner\">\r\n      <div class=\"carousel-item active\">\r\n        <img src=\"assets\\All_doctors.jpg\" class=\"d-block w-100\" alt=\"...\" (click)=\"goToTeam()\" style=\"cursor: pointer\">\r\n      </div>\r\n      <div class=\"carousel-item\">\r\n        <img src=\"assets\\Dr.Srinath.jpg\" class=\"d-block w-100\" alt=\"...\" (click)=\"goToDr1()\" style=\"cursor: pointer\">\r\n      </div>\r\n      <div class=\"carousel-item\">\r\n          <img src=\"assets\\Dr.Nocerini-main.jpg\" class=\"d-block w-100\" alt=\"...\" (click)=\"goToDr2()\" style=\"cursor: pointer\">\r\n        </div>\r\n      <div class=\"carousel-item\">\r\n        <img src=\"assets\\home_oec99.jpg\" class=\"d-block w-100\" alt=\"...\" (click)=\"goToServices()\" style=\"cursor: pointer\">\r\n      </div>\r\n    </div>\r\n    <a class=\"carousel-control-prev\" href=\"#carouselExampleFade\" role=\"button\" data-slide=\"prev\">\r\n      <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\r\n      <span class=\"sr-only\">Previous</span>\r\n    </a>\r\n    <a class=\"carousel-control-next\" href=\"#carouselExampleFade\" role=\"button\" data-slide=\"next\">\r\n      <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\r\n      <span class=\"sr-only\">Next</span>\r\n    </a>\r\n  </div>\r\n  <!-- <div class=\"container mt-5\">\r\n    <div class=\"row\">\r\n      <div *ngFor=\"let program of programs\" class=\"col-md-6 col-lg-3\">\r\n        <div class=\"card mt-3 mr-2\">\r\n          <div class=\"programs-grid\">\r\n            <div class=\"programs-grid-icon icon\"></div>\r\n            <div class=\"programs-grid-item\">\r\n              <h6 class=\"bold-text\">{{program.title}}</h6>\r\n            </div>\r\n            <div class=\"programs-grid-item\"></div>\r\n            <div class=\"programs-grid-item\">{{program.description}}</div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    </div> -->\r\n    <!-- <app-why-best></app-why-best> -->\r\n\r\n    <div class=\"container text-center mt30\">\r\n        <button type=\"button\" class=\"btn btn-primary\" (click)=\"contactNav()\">Contact us</button>\r\n    </div>");
 
 /***/ }),
 
@@ -96,6 +96,22 @@ let HomePageComponent = class HomePageComponent {
     }
     contactNav() {
         this.router.navigate(['/' + 'contact-us']);
+        window.scroll(0, 0);
+    }
+    goToTeam() {
+        this.router.navigate(['/' + 'med-services']);
+        window.scroll(0, 0);
+    }
+    goToDr1() {
+        this.router.navigate(['/' + 'dr1-detail']);
+        window.scroll(0, 0);
+    }
+    goToServices() {
+        this.router.navigate(['/' + 'med-services']);
+        window.scroll(0, 0);
+    }
+    goToDr2() {
+        this.router.navigate(['/' + 'dr2-detail']);
         window.scroll(0, 0);
     }
 };
